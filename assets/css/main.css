@@ -3474,6 +3474,35 @@ html, body {
     overflow-x: hidden;
 }
 
+
+
+
+#preview-price {
+	position: absolute;
+	top: 0em;
+	right: 0;
+	color: rgba(255, 255, 255, 0.75);
+	line-height: 1em;
+	width: 5em;
+	height: 5em;
+	font-size: 0.7em;
+	font-weight: 500;
+	background-color: rgba(255,255,255,0.25);
+	padding: 0.8em;
+	text-align: right;
+	border-bottom-left-radius: 10em;
+}
+
+#preview-price div {
+	margin-bottom: 0.25em;
+}
+
+
+
+
+
+
+
 	.title {
 		font-size: 3.2em;
 		padding-bottom: 0.7em;
@@ -3512,7 +3541,7 @@ html, body {
 		text-align: center;
 	}
 
-	#three, #four {
+	#three, #four, #five {
 		text-align: center;
 	}
 
@@ -3552,15 +3581,47 @@ html, body {
 		border-radius: 20px;
 	}
 
-	#five {
+	.price{
+		font-size: 3em;
+	}
+
+	.small{
+		font-size: 0.75em;
+	}
+
+
+	.includes-list {
+		margin-top: 2em;
+		text-align: left;
+	}
+
+	.includes-list ul {
+		list-style: none;
+  		padding: 0;
+	}
+	.includes-list li {
+		margin-bottom: 0.6em;
+		padding-left: 2em;
+	}
+
+	.includes-list li:before {
+		content: "\f00c";
+		font-size: 0.8em;
+		font-family: FontAwesome;
+		display: inline-block;
+		margin-left: -2em;
+		width: 2em;
+	}
+
+	#bottom {
 		padding: 3em;;
 	}
 
-	#five .container {
+	#bottom .container {
 		padding: 0;
 	}
 
-	#five a {
+	#bottom a {
 		padding: 0 1em 0 1em;
 	}
 
